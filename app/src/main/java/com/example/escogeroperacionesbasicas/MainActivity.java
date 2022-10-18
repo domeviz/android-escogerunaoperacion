@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         String [] opciones={"Sumar","Restar","Multiplicar","Dividir"};
 
         //Adaptador de arreglo
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,opciones);
+        //Modificamos el spinner con el xml que creamos
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, R.layout.spinner_item_dome,opciones);
 
         //Dentro del objeto spinner ponemos el adapter para tener las opciones
         spinner.setAdapter(adapter);
