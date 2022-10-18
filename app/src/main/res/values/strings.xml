@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Escoger Operaciones Basicas</string>
+    <string name="valor1">Primer valor</string>
+    <string name="valor2">Segundo valor</string>
+    <string name="boton">Calcular</string>
+    <string name="resultado">Resultado</string>
+</resources>
